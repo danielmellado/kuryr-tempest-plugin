@@ -1,0 +1,7 @@
+Code-Review+2: Daniel Mellado <dmellado@redhat.com>
+Verified+1: Daniel Mellado <dmellado@redhat.com>
+Submitted-by: Daniel Mellado <dmellado@redhat.com>
+Submitted-at: Thu, 25 May 2017 07:20:47 -0400
+Reviewed-on: https://review.gerrithub.io/362521
+Project: danielmellado/kuryr-tempest-plugin
+Branch: refs/heads/master
