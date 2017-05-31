@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import kubernetes
+
 from tempest import config
 import tempest.test
 
@@ -27,3 +29,10 @@ class BaseKuryrTest(tempest.test.BaseTestCase):
         super(BaseKuryrTest, cls).skip_checks()
         if not CONF.service_available.kuryr:
             raise cls.skipException('Kuryr support is required')
+
+    @classmethod
+    def setup_clients(cls):
+        super(BaseKuryrTest, cls).setup_clients()
+        # TODO (dmellado): Config k8s client in a cleaner way
+        kubernetes.config.load_kube_config()
+        cls.k8s_client = kubernetes.client.CoreV1Api()
