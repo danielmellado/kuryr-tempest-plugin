@@ -1,0 +1,7 @@
+Code-Review+2: Arie Bregman <abregman@redhat.com>
+Verified+1: Daniel Mellado <dmellado@redhat.com>
+Submitted-by: Daniel Mellado <dmellado@redhat.com>
+Submitted-at: Mon, 05 Jun 2017 10:55:02 -0400
+Reviewed-on: https://review.gerrithub.io/363225
+Project: danielmellado/kuryr-tempest-plugin
+Branch: refs/heads/master
