@@ -34,3 +34,4 @@ class BaseAdminKuryrTest(base.BaseAdminNetworkTest):
         # TODO (dmellado): Config k8s client in a cleaner way
         kubernetes.config.load_kube_config()
         cls.k8s_client = kubernetes.client.CoreV1Api()
+        kubernetes.client.CoreV1Api.delete_name
