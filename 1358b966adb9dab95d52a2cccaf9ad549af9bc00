@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d9ce98c5_1d84a1fd",
+        "filename": "kuryr_tempest_plugin/tests/test_pods.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1004788
+      },
+      "writtenOn": "2017-06-07T11:11:22Z",
+      "side": 1,
+      "message": "indentation",
+      "range": {
+        "startLine": 55,
+        "startChar": 20,
+        "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "1358b966adb9dab95d52a2cccaf9ad549af9bc00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
