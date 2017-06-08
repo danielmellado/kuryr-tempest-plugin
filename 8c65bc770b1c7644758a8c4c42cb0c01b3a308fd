@@ -22,6 +22,30 @@
       "revId": "8c65bc770b1c7644758a8c4c42cb0c01b3a308fd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2942eb7a_00c4ec78",
+        "filename": "kuryr_tempest_plugin/tests/test_pods.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002755
+      },
+      "writtenOn": "2017-06-08T18:39:18Z",
+      "side": 1,
+      "message": "Yep, already going to check that. Consider this, though, a draft that will get pushed and improved afterwards ;)\n\nThis could get flaky because of that, but I want to go for the us push and improve it there.",
+      "parentUuid": "8c2a7843_dd9f46ac",
+      "range": {
+        "startLine": 70,
+        "startChar": 8,
+        "endLine": 70,
+        "endChar": 51
+      },
+      "revId": "8c65bc770b1c7644758a8c4c42cb0c01b3a308fd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
